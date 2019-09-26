@@ -83,7 +83,7 @@ class DimensionInfo:
     )
 
     def __init__(self, name, enabled, presentation, resolution, units,
-                 unit_symbol, strategy=None, attribute=None,
+                 unitSymbol, strategy=None, attribute=None,
                  end_attribute=None, reference_value=None):
         self.name = name
         self.enabled = enabled
@@ -92,7 +92,7 @@ class DimensionInfo:
         self.presentation = presentation
         self.resolution = resolution
         self.units = units
-        self.unit_symbol = unit_symbol
+        self.unitSymbol = unitSymbol
         self.strategy = strategy
         self.referenceValue = reference_value
 
